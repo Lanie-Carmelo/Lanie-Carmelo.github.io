@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
 }
 nav {
   position: fixed;
@@ -34,4 +34,29 @@ img {
   h1 {
     font-size: 32px;
   }
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.screenshots {
+  width: 80%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.project-tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-heading {
+  text-align: center;
+}
+
+.project-links {
+  margin: 0.7rem 0 4.5rem 0;
+  font-size: 1.3rem;
 }
